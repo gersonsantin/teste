@@ -13,7 +13,7 @@ agora vamos ver como ficaaaa
 *           06/05/2015  Diego M                        Alteracoes para atender atualizacao para versao do Totvs 12.1.3
 ******************************************************************************/
 
-/* --- Definicao de usuario corasfda
+/* --- Definicao de usuario asdasdasdsacorasfda
 asfdas
 rente --- */ 
 asd
