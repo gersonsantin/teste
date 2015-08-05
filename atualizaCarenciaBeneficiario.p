@@ -5,7 +5,7 @@
 *      Programador ..: Guilherme Gregory
 *      Objetivo .....: API que atualiza a carencia do beneficiario
 *----------------------------------------------------------------------------
-* VERSAO    DATA        RESPONSAVEL    ITEM   NR-CATI  MOTIVO
+* VERSAO    DATA        RESPONSAVEL    ITEM   NR-CATasdasdasdasdI  MOTIVO
 * GPL1.00   23/07/2014  Guilherme      Projeto PE1334  Desenvolvimento
 *           20/10/2014  Diego M        Projeto PO1351  Alterada api da TOTVS, ao inves de api-usucaren deve ser utilizada a api defchsauintegration
 *           06/05/2015  Diego M                        Alteracoes para atender atualizacao para versao do Totvs 12.1.3
