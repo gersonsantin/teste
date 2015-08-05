@@ -1,6 +1,6 @@
 /*****************************************************************************
 *      Programa .....: alteraDadosContratante.p
-*      Data .........: 14/05/2012
+*      Data .........: 14/05/2012 tes
 *      Area .........: TI
 *      Programador ..: Diego Mullerasdasdasdas
 *      Objetivo .....: API de alteracao de dados do contratante no GPL atraves de BPM
@@ -11,9 +11,18 @@
 *           06/05/2015  Diego M                        Alteracoes para atender atualizacao para versao do Totvs 12.1.3
 ******************************************************************************/
 
-/* --- Definicao de usuario corrente --- */ 
-def new global shared var v_cod_usuar_corren as character
-                       format "x(12)":U label "Usuario Corrente"
+/* --- Definicao de usuario corasfda
+asfdas
+rente --- */ 
+asd
+
+asddef new global shared var v_cod_usuar_corren as character
+   as
+dasd
+asd
+asd
+as
+d   format "x(12)":U label "Usuario Corrente"
                                       column-label "Usuario Corrente" no-undo.
 
 /* --- Inicializa Tela --- */
