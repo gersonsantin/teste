@@ -1,5 +1,5 @@
 /*****************************************************************************
-*      Programa .....: alteraDadosContratante.p
+*      Pxzczxczxczxcrograma .....: alteraDadosContratante.p
 mais um teste
 agora vamos ver como ficaaaa
 *      Data .........: 14/05/2012 tes
@@ -111,18 +111,7 @@ def var ds-mens-aux                         as char                             
 
 /* --- Buffers --- */
 
-
-/* --- Funcoes --- */
-
-
-/* --- Querys --- */             
-
-
-/* --- Browses --- */
-
-
-/* --- Botoes --- */
-
+sdfasdfasdfsa
 
 /* --- Rectangles --- */
 
@@ -158,7 +147,7 @@ find first dzcidade where dzcidade.cd-cidade = st_cd-cidade-par
                     no-lock use-index cidad1 no-error.
 
 if not avail dzcidade
-    then return error "0056 Î Codigo da cidade nao encontrado no GPL".
+    then return error "0056 ÃŽ Codigo da cidade nao encontrado no GPL".
 
 if st_cd-cidade-cob-par <> 0 
     then do:
@@ -166,7 +155,7 @@ if st_cd-cidade-cob-par <> 0
                                  no-lock use-index cidad1 no-error.
 
             if not avail dzcidade
-                then return error "0056 Î Codigo da cidade nao encontrado no GPL".
+                then return error "0056 ÃŽ Codigo da cidade nao encontrado no GPL".
          end.
 
 if st_in-est-civil-par > 9
@@ -256,7 +245,7 @@ if avail contrat
                    tmpContato.id-contato       = 0
                    /*tmpContato.id-contato-crm = 
                    tmpContato.id-endereco      = */
-                   /*tmpContato.id-pessoa      = NÆo ‚ necess rio preencher, porque na fachada j  foi preenchido.*/
+                   /*tmpContato.id-pessoa      = NÃ†o Â‚ necessÂ rio preencher, porque na fachada jÂ  foi preenchido.*/
                    /*tmpContato.nm-contato     = */
                    tmpContato.tp-contato       = 1.
             
@@ -266,7 +255,7 @@ if avail contrat
                    tmpContato.id-contato       = 0
                    /*tmpContato.id-contato-crm = 
                    tmpContato.id-endereco      = */
-                   /*tmpContato.id-pessoa      = NÆo ‚ necess rio preencher, porque na fachada j  foi preenchido.*/
+                   /*tmpContato.id-pessoa      = NÃ†o Â‚ necessÂ rio preencher, porque na fachada jÂ  foi preenchido.*/
                    /*tmpContato.nm-contato     = */
                    tmpContato.tp-contato       = 1.
             
@@ -276,7 +265,7 @@ if avail contrat
                    tmpContato.id-contato       = 0
                    /*tmpContato.id-contato-crm = 
                    tmpContato.id-endereco      = */
-                   /*tmpContato.id-pessoa      = NÆo ‚ necess rio preencher, porque na fachada j  foi preenchido.*/
+                   /*tmpContato.id-pessoa      = NÃ†o Â‚ necessÂ rio preencher, porque na fachada jÂ  foi preenchido.*/
                    /*tmpContato.nm-contato     = */
                    tmpContato.tp-contato       = 4.
             
@@ -290,7 +279,7 @@ if avail contrat
                    tmpEndereco.ds-endereco      = st_en-rua-par
                    tmpEndereco.id-endereco      = 0
                    /*tmpEndereco.id-endereco-crm  = 
-                   tmpEndereco.id-pessoa        = 	/* NÆo ‚ necess rio preencher, porque na fachada j  foi preenchido. */*/
+                   tmpEndereco.id-pessoa        = 	/* NÃ†o Â‚ necessÂ rio preencher, porque na fachada jÂ  foi preenchido. */*/
                    tmpEndereco.in-tipo-endereco = 1
                    tmpEndereco.lg-end-cobranca  = no
                    tmpEndereco.lg-principal     = yes
@@ -309,7 +298,7 @@ if avail contrat
                    tmpEndereco.ds-endereco      = st_en-rua-cob-par
                    tmpEndereco.id-endereco      = 0
                    /*tmpEndereco.id-endereco-crm  = 
-                   tmpEndereco.id-pessoa        = 	/* NÆo ‚ necess rio preencher, porque na fachada j  foi preenchido. */*/
+                   tmpEndereco.id-pessoa        = 	/* NÃ†o Â‚ necessÂ rio preencher, porque na fachada jÂ  foi preenchido. */*/
                    tmpEndereco.in-tipo-endereco = 1
                    tmpEndereco.lg-end-cobranca  = yes
                    tmpEndereco.lg-principal     = no
