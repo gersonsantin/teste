@@ -1,5 +1,5 @@
 /*****************************************************************************
-add essa linha e removi outra  
+*      Programa .....: atualizaCarenciaBeneficiario.p
 *      Data .........: 23/07/2014
 *      Area .........: TI
 *      Programador ..: Guilherme Gregory
@@ -15,7 +15,48 @@ def new global shared var v_cod_usuar_corren as character
                        format "x(12)":U label "Usuario Corrente"
                                       column-label "Usuario Corrente" no-undo.
 
-									  mas vamos ver como fica
+assign v_cod_usuar_corren = "portalemp".
+sad
+
+ASD
+AS
+DAS
+DA
+DASD
+SA
+DAS
+AdaD
+
+/* --- Inicializa Tela --- */
+
+
+/* --- Includes Padrao do Sistema --- */
+{dep/defchsauintegration.i}
+
+/* --- Tabelas Temporarias --- */
+
+
+/* --- tabela para retorno da dert0036.p --- */
+def temp-table ct_tt-modulo             no-undo
+    field st_cd-modulo                  like usucaren.cd-modulo         init 0
+    field st_nr-dias-carencia-original  like usucaren.nr-dias           init 0
+    field st_nr-dias-carencia-alterada  like usucaren.nr-dias           init 0
+    index ordem1
+          st_cd-modulo.
+
+def temp-table ct_tt-coberturas         no-undo
+    field st_cd-grau-parentesco         like usuario.cd-grau-parentesco
+    field st_cd-modulo                  like mod-cob.cd-modulo          init 0
+    field st_dt-carencia                as date                         init ?
+    index ordem1
+          st_cd-modulo.
+
+def temp-table ct_tt-modulo-opcional no-undo
+    field st_cd-modulo               like mod-cob.cd-modulo
+    index ordem1 is primary unique
+        st_cd-modulo.
+
+def temp-table ct_tt-coberturas-dep like ct_tt-coberturas.
 
 /* --- Parametros de Entrada/Saida --- */
 def input  parameter st_nr-versao-par                   as int  format "99"                             init 0          no-undo.
@@ -35,7 +76,7 @@ def output parameter st_ds-retorno-par                  as char                 
 /* --- Acesso Tabelas do Sistema --- */
 
 
-/* --- e se eu só mudar isso???? Variaveis Globais --- */
+/* --- Variaveis Globais --- */
 
 
 /* --- Variaveis de Zoom --- */
@@ -67,7 +108,7 @@ def var nr-dias-usucaren-aux                            like usucaren.nr-dias   
 def var lg-boni-pena-usucaren-aux                       like usucaren.lg-bonifica-penaliza                      no-undo.
 def var lg-carencia-usucaren-aux                        like usuario.lg-carencia                                no-undo.
 def var dt-inicio-modulo-aux                            like pro-pla.dt-inicio                                  no-undo.
-def var dt-carprdo-aux                                   as date                                                 no-undo.
+def var dt-carpro-aux                                   as date                                                 no-undo.
 def var h-api-usucaren                                  as handle                                               no-undo.
 def var nr-idade-aux                                    as int  format 999                                      no-undo.
 
